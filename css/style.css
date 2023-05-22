@@ -152,7 +152,7 @@ span{
         font-size: 15px;
     }
 }
-@media (max-width:763px) and (min-width:500px)
+@media (max-width:763px) and (min-width:50px)
 {
     .hero-section {
         margin: 100px 0px;
@@ -273,7 +273,7 @@ span{
         font-size: 27px;
     }
 }
-@media (max-width:500px) and (min-width:200px){
+@media (max-width:500px) and (min-width:50px){
     .about-section .about-me-right-section{
         margin-top: 20px;
     }
@@ -500,7 +500,10 @@ ul, ol {
     color: #bbb;
 }
 
-@media (max-width:763px) and (min-width:500px){
+@media (max-width:763px) and (min-width:50px){
+    .context-dark .container #judul{
+        padding-bottom: 20px;
+    }
     .context-dark{
         text-align: center;
         font-size: 80% ;
